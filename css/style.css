@@ -1,0 +1,157 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* ===== HEADER ======== */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  justify-content: flex-start;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio-logo {
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-link {
+  color: #2e2f42;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+.header-navigation-list {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-navigation-list:hover,
+.header-navigation-list:focus {
+  color: #404bbf;
+}
+.header-contacts-link {
+  font-style: normal;
+}
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ======== HERO ======= */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+/* ======== Innovation ======= */
+.innovation-title {
+  font-size: 56px;
+  font-size: 20px;
+}
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ======= TEAM ======= */
+.page-team {
+  background: #f4f4fd;
+}
+
+.our-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-info {
+  background-color: #ffffff;
+}
+
+/* ======== Our Portfolio ======== */
+.our-portfolio {
+  background-color: #ffffff;
+}
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* ======== FOOTER ======= */
+.page-footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-weight: 700;
+}
+.page-footer p {
+  color: #f4f4fd;
+}
+.studio-footer-logo {
+  color: #f4f4fd;
+}
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
