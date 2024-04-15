@@ -1,13 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   color: #434455;
   background-color: #ffffff;
 }
-
+.conteiner {
+  display: flex;
+}
 /* ===== HEADER ======== */
-
-.logo {
+.header-nav {
+  display: flex;
+}
+.header-nav .header-navigation-list {
+  display: flex;
+  gap: 100px;
+}
+g.header-navigation-list:first-child {
+  margin-left: 76px;
+}
+.header-contacts-link {
+  display: flex;
+}
+.header-navigation-list .header-navigation-list .logo {
   font-family: "Raleway", sans-serif;
   justify-content: flex-start;
   text-decoration: none;
