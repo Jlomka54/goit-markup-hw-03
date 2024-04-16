@@ -110,8 +110,10 @@ ul {
 /* ======== HERO ======= */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -119,6 +121,13 @@ ul {
   letter-spacing: 0.02em;
 }
 .button {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
