@@ -9,6 +9,9 @@ p {
   margin: 0;
   padding: 0;
 }
+button {
+  cursor: pointer;
+}
 ul {
   margin: 0;
   padding-left: 0;
@@ -223,11 +226,11 @@ ul {
 .people-info {
   padding: 32px 0;
 }
-.list-title {
+.people-info .list-title {
   text-align: center;
   margin-bottom: 8px;
 }
-.paragraph {
+.people-info .paragraph {
   text-align: center;
 }
 
@@ -249,10 +252,10 @@ ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 40px;
+  row-gap: 48px;
 }
 .portfolio-paragraph-list {
-  width: calc((100% - 24 * 2) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-container {
   padding: 32px 16px;
@@ -271,7 +274,7 @@ ul {
   background: #2e2f42;
   padding: 100px 0;
 }
-.logo {
+.portfolio-container .logo {
   display: inline-block;
   margin-bottom: 16px;
   font-weight: 700;
