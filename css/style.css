@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -274,10 +277,16 @@ ul {
   background: #2e2f42;
   padding: 100px 0;
 }
-.container .logo {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .page-footer .footer-paragraph {
   color: #f4f4fd;
