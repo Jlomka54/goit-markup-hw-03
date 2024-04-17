@@ -221,7 +221,7 @@ ul {
   justify-content: center;
 }
 .team-info {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 48px) / 4);
   border-radius: 0px 0px 4px 4px;
 
   background-color: #ffffff;
@@ -277,16 +277,10 @@ ul {
   background: #2e2f42;
   padding: 100px 0;
 }
-.footer-logo {
+.page-footer .logo {
   display: inline-block;
   margin-bottom: 16px;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-align: center;
-  text-transform: uppercase;
-  color: #4d5ae5;
 }
 .page-footer .footer-paragraph {
   color: #f4f4fd;
