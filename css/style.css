@@ -30,7 +30,6 @@ body {
 }
 .container {
   width: 1158px;
-  display: flex;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -220,7 +219,7 @@ ul {
   gap: 24px;
   justify-content: center;
 }
-.team-info {
+.team-list-info .team-info {
   width: calc((100% - 48px) / 3);
   border-radius: 0px 0px 4px 4px;
 
