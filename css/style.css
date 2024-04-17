@@ -40,6 +40,12 @@ body {
   align-items: center;
 }
 .logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   margin-right: 76px;
 }
 .header-navigation-list {
@@ -146,8 +152,20 @@ ul {
 /* ======== Innovation ======= */
 .innovation {
   display: flex;
+  padding: 120px 0;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .innovation-title {
   font-size: 56px;
   font-size: 20px;
@@ -155,22 +173,25 @@ ul {
 .innovationi-list {
   justify-content: space-between;
   display: flex;
+  gap: 24px;
+}
+.innovationi-paragraph-list {
+  width: calc((100% - 72px) / 4);
 }
 .innovationi-list .innovationi-title-list {
   display: flex;
 }
 .innovationi-title-list {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.innovationi-list .paragraph:last-child {
-  margin-top: 24px;
-}
-.paragraph {
-  margin-top: 8px;
+
+.innovationi-list .paragraph {
+  text-align: start;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -205,10 +226,11 @@ ul {
   background-color: #ffffff;
 }
 .people-info {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .list-title {
   text-align: center;
+  margin-bottom: 8px;
 }
 .paragraph {
   text-align: center;
@@ -217,8 +239,10 @@ ul {
 /* ======== Our Portfolio ======== */
 .our-portfolio {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 .portfolio-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -226,15 +250,38 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 40px;
+}
+.portfolio-paragraph-list {
+  width: calc((100% - 24 * 2) / 3);
+}
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.list-title {
+  text-align: start;
+  margin-bottom: 8px;
+}
+.paragraph {
+  text-align: start;
+}
 /* ======== FOOTER ======= */
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
-.footer-logo {
-  color: #f4f4fd;
+.logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-weight: 700;
 }
-.page-footer p {
+.page-footer .footer-paragraph {
   color: #f4f4fd;
 }
 .studio-footer-logo {
