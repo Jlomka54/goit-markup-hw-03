@@ -48,6 +48,7 @@ body {
 }
 .logo {
   text-decoration: none;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
@@ -182,9 +183,7 @@ ul {
 .innovationi-paragraph-list {
   width: calc((100% - 72px) / 4);
 }
-.innovationi-list .innovationi-title-list {
-  display: flex;
-}
+
 .innovationi-title-list {
   margin-bottom: 8px;
   font-weight: 500;
@@ -206,7 +205,6 @@ ul {
 .page-team {
   background: #f4f4fd;
   padding: 120px 0;
-  display: flex;
 }
 
 .our-team {
