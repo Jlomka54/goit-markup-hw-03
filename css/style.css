@@ -25,7 +25,7 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  color: #434455;
+  color: #2e2f42;
   background-color: #ffffff;
 }
 .container {
@@ -37,6 +37,8 @@ body {
 /* ===== HEADER ======== */
 .header-container {
   display: flex;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -47,7 +49,6 @@ body {
   align-items: center;
 }
 .logo {
-  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -60,18 +61,12 @@ body {
 .header-navigation-list {
   display: flex;
   gap: 40px;
+  margin-right: 332px;
 }
-.header-link {
-  padding: 24px 0;
-  text-decoration: none;
-}
+
 .contacts-list {
   display: flex;
-  margin-left: 332px;
   gap: 40px;
-}
-.contacts-link {
-  text-decoration: none;
 }
 
 .studio-logo {
@@ -122,6 +117,7 @@ ul {
   padding: 188px 0;
 }
 .hero-title {
+  font-weight: 700;
   margin: 0 auto 48px;
   max-width: 496px;
   font-size: 56px;
@@ -142,7 +138,6 @@ ul {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -209,6 +204,7 @@ ul {
 
 .our-team {
   margin-bottom: 72px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -236,6 +232,11 @@ ul {
 }
 .people-info .paragraph {
   text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* ======== Our Portfolio ======== */
@@ -246,6 +247,7 @@ ul {
 .portfolio-title {
   margin-bottom: 72px;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -266,11 +268,21 @@ ul {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.list-title {
+.portfolio-container .list-title {
   text-align: start;
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.paragraph {
+.portfolio-container .paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   text-align: start;
 }
 /* ======== FOOTER ======= */
@@ -279,19 +291,19 @@ ul {
   padding: 100px 0;
 }
 .page-footer .logo {
+  margin-right: 0;
   display: inline-block;
   margin-bottom: 16px;
   font-weight: 700;
 }
 .page-footer .footer-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .studio-footer-logo {
   color: #f4f4fd;
-}
-.footer-paragraph {
-  max-width: 264px;
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
 }
