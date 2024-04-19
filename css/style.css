@@ -38,10 +38,11 @@ body {
 .header-container {
   display: flex;
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 0 15px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-nav {
